@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/baycultivateapp/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/baycultivateapp/static/js/main.0fbda1a0.chunk.js",
+    "main.js.map": "/baycultivateapp/static/js/main.0fbda1a0.chunk.js.map",
+    "runtime-main.js": "/baycultivateapp/static/js/runtime-main.09c431eb.js",
+    "runtime-main.js.map": "/baycultivateapp/static/js/runtime-main.09c431eb.js.map",
+    "static/js/2.edfa4687.chunk.js": "/baycultivateapp/static/js/2.edfa4687.chunk.js",
+    "static/js/2.edfa4687.chunk.js.map": "/baycultivateapp/static/js/2.edfa4687.chunk.js.map",
+    "static/js/3.4cbff07c.chunk.js": "/baycultivateapp/static/js/3.4cbff07c.chunk.js",
+    "static/js/3.4cbff07c.chunk.js.map": "/baycultivateapp/static/js/3.4cbff07c.chunk.js.map",
+    "index.html": "/baycultivateapp/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/baycultivateapp/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.edfa4687.chunk.js.LICENSE.txt": "/baycultivateapp/static/js/2.edfa4687.chunk.js.LICENSE.txt",
+    "static/media/logo last.2cb79414.PNG": "/baycultivateapp/static/media/logo last.2cb79414.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09c431eb.js",
+    "static/js/2.edfa4687.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.0fbda1a0.chunk.js"
+  ]
+}
