@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 // import Introduction from './components/introduction'
-import logo from './logo last.PNG'
+// import logo from './logo last.PNG'
 
-class App extends Component {
+
+class App extends Component {  
   render () {
     return (
       <div>
-        <img src={logo} alt="Logo" style={{"display": "block", "margin-left": "auto", "margin-top": "25px", "margin-right": "auto", "height": "400px", "width": "400px"}}/>
+        <img src={'https://baycultivate.s3-us-west-1.amazonaws.com/logo+last.PNG'} alt="Logo" style={{"display": "block", "margin-left": "auto", "margin-top": "25px", "margin-right": "auto", "height": "400px", "width": "400px"}}/>
         <ul>
           <li>Web Development: professional template style, quick turnaround, option to upgrade by feature</li>          
         </ul>
