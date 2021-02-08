@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/baycultivateapp/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/baycultivateapp/static/js/main.0fbda1a0.chunk.js",
-    "main.js.map": "/baycultivateapp/static/js/main.0fbda1a0.chunk.js.map",
+    "main.js": "/baycultivateapp/static/js/main.3ef9022b.chunk.js",
+    "main.js.map": "/baycultivateapp/static/js/main.3ef9022b.chunk.js.map",
     "runtime-main.js": "/baycultivateapp/static/js/runtime-main.09c431eb.js",
     "runtime-main.js.map": "/baycultivateapp/static/js/runtime-main.09c431eb.js.map",
     "static/js/2.edfa4687.chunk.js": "/baycultivateapp/static/js/2.edfa4687.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.09c431eb.js",
     "static/js/2.edfa4687.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.0fbda1a0.chunk.js"
+    "static/js/main.3ef9022b.chunk.js"
   ]
 }
