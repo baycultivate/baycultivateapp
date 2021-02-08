@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+// import Introduction from './components/introduction'
+import logo from './logo last.PNG'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends Component {
+  render () {
+    return (
+      <div>
+        <img src={logo} alt="Logo" style={{"display": "block", "margin-left": "auto", "margin-top": "25px", "margin-right": "auto", "height": "400px", "width": "400px"}}/>
+        <ul>
+          <li>Web Development: professional template style, quick turnaround, option to upgrade by feature</li>          
+        </ul>
+        <ul>
+          <li>Software Engineering: Individually distinct web design that is fully customizable, better long term investment</li>
+        </ul>
+        <ul>
+          <li>Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads</li>
+        </ul>
+      
+      <button>Schedule Phonecall</button>
+      </div>
+    )
+  }
+} 
 
-export default App;
+export default App

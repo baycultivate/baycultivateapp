@@ -1,5 +1,6 @@
 {
   "name": "bay-cultivate",
+  "homepage": "http://baycultivate.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
