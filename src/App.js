@@ -1,13 +1,30 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
+
 // import Introduction from './components/introduction'
 // import logo from './logo last.PNG'
 
-class App extends Component {
-  render () {
+function App () {
+  const [width, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    updateDimensions();
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions)
+  }, [])
+
+  const updateDimensions = () => {
+    const width = window.innerWidth;
+    setWindowWidth(width)
+  };
+
+  const responsive = {
+    showTopNavMenu: width > 1023
+  }
     return (
       <div>
         <img src={'https://baycultivate.s3-us-west-1.amazonaws.com/logo+last.PNG'} alt="Logo" style={{"display": "block", "margin-left": "auto", "margin-top": "25px", "margin-right": "auto", "height": "400px", "width": "400px"}}/>
-        <ul>
+        
+        <ul> 
           <li>Web Development: professional template style, quick turnaround, option to upgrade by feature</li>          
         </ul>
         <ul>
@@ -20,7 +37,6 @@ class App extends Component {
       <button>Schedule Phonecall</button>
       </div>
     )
-  }
 } 
 
 export default App
