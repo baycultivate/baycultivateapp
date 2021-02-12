@@ -140,7 +140,7 @@
   .container-services{
     display: flex;
     /* margin-bottom: 1599 px; */
-    width: 100%;
+    flex-direction: column;
   }
   
 
