@@ -1,4 +1,66 @@
-@media(min-width: 1024px){
+/*
+  css for desktop
+*/
+.container-banner{
+  display:flex;
+  justify-content: center;
+}
+
+.logo-1{  
+  width: 250px;
+  height: 250px;
+  /* justify-content: center; */
+  /* align-self: center; */
+}
+
+.container-services{
+  display: flex;
+  /* margin-bottom: 1599 px; */
+}
+
+
+.container-footer{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%
+}
+
+.container-partners{    
+  background-color: silver;
+  align-items: flex-end;
+}
+.partners-title{
+  align-self: flex-start;    
+  font-family: Brush Script MT; 
+  font-size:20px;
+}
+.partners{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.partners1{
+  align-self: flex-start;
+  color:#5440d8; 
+  font-weight: bold; 
+  font-family : PT Mono; 
+  font-size:125px; 
+  text-decoration: none;
+  
+}
+.partners2{
+  width: 500px;
+  margin-bottom: 50px;     
+}
+.partners3{
+  width: 200px;    
+}
+
+
+/* CSS for Tablet */
+
+@media(max-width: 1024px){
 
   .container-banner{
     display:flex;
@@ -58,7 +120,9 @@
   }
 }
 
-@media(min-width:750px){
+
+/*CSS for mobile*/
+@media(max-width:500px){
   .container-banner{
     display:flex;
     /* align-items: center; */
@@ -113,63 +177,10 @@
     width: 250px;
   }
   .partners3{
-    width: 450px; 
+    width: 150px; 
     margin-bottom: 10px;   
   }
 }
 
-.container-banner{
-  display:flex;
-  justify-content: center;
-}
-
-.logo-1{  
-  width: 250px;
-  height: 250px;
-  /* justify-content: center; */
-  /* align-self: center; */
-}
-
-.container-services{
-  display: flex;
-  /* margin-bottom: 1599 px; */
-}
 
 
-.container-footer{
-  position: fixed;
-  left:0;
-  bottom:0;
-  width: 100%
-}
-
-.container-partners{    
-  background-color: silver;
-  align-items: flex-end;
-}
-.partners-title{
-  align-self: flex-start;    
-  font-family: Brush Script MT; 
-  font-size:20px;
-}
-.partners{
-  display: flex;
-  justify-content: space-around;
-  
-}
-.partners1{
-  align-self: flex-start;
-  color:#5440d8; 
-  font-weight: bold; 
-  font-family : PT Mono; 
-  font-size:125px; 
-  text-decoration: none;
-  
-}
-.partners2{
-  width: 500px;
-  margin-bottom: 50px;     
-}
-.partners3{
-  width: 200px;    
-}
