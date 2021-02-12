@@ -89,7 +89,9 @@
     align-items: flex-end;
   }
   .partners-title{
-    align-self: flex-start;    
+    align-self: flex-start;
+    font-family: Brush Script MT; 
+    font-size:20px;    
   }
   .partners{
     display: flex;
@@ -100,7 +102,7 @@
     align-self: flex-start;
     color:#5440d8; 
     font-weight: 'bold'; 
-    font-family : PT Mono Brush; 
+    font-family : PT Mono; 
     font-size:120px; 
     text-decoration: none;
     
@@ -114,60 +116,58 @@
   }
 }
 
+.container-banner{
+  display:flex;
+  justify-content: center;
+}
+
+.logo-1{  
+  width: 250px;
+  height: 250px;
+  /* justify-content: center; */
+  /* align-self: center; */
+}
+
+.container-services{
+  display: flex;
+  /* margin-bottom: 1599 px; */
+}
 
 
-  .container-banner{
-    display:flex;
-    justify-content: center;
-  }
+.container-footer{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%
+}
 
-  .logo-1{  
-    width: 250px;
-    height: 250px;
-    /* justify-content: center; */
-    /* align-self: center; */
-  }
-
-  .container-services{
-    display: flex;
-    /* margin-bottom: 1599 px; */
-  }
-
-
-  .container-footer{
-    position: fixed;
-    left:0;
-    bottom:0;
-    width: 100%
-  }
-
-  .container-partners{    
-    background-color: silver;
-    align-items: flex-end;
-  }
-  .partners-title{
-    align-self: flex-start;    
-    font-family: Brush Script MT; 
-    font-size:20px;
-  }
-  .partners{
-    display: flex;
-    justify-content: space-around;
-    
-  }
-  .partners1{
-    align-self: flex-start;
-    color:#5440d8; 
-    font-weight: bold; 
-    font-family : PT Mono; 
-    font-size:125px; 
-    text-decoration: none;
-    
-  }
-  .partners2{
-    width: 500px;
-    margin-bottom: 50px;     
-  }
-  .partners3{
-    width: 200px;    
-  }
+.container-partners{    
+  background-color: silver;
+  align-items: flex-end;
+}
+.partners-title{
+  align-self: flex-start;    
+  font-family: Brush Script MT; 
+  font-size:20px;
+}
+.partners{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.partners1{
+  align-self: flex-start;
+  color:#5440d8; 
+  font-weight: bold; 
+  font-family : PT Mono; 
+  font-size:125px; 
+  text-decoration: none;
+  
+}
+.partners2{
+  width: 500px;
+  margin-bottom: 50px;     
+}
+.partners3{
+  width: 200px;    
+}
