@@ -27,7 +27,6 @@ function App () {
             <img className="logo-1" src={'https://baycultivate.s3-us-west-1.amazonaws.com/logo+last.PNG'} alt="Logo" />                          
         </div>
 
-        <span style={{'fontWeight': 'bold', 'margin-top': '10px'}}>Contact: paulv@pacquiaofoundation.org</span>
 
         <div className="container-services">
           <ul> 
@@ -40,6 +39,7 @@ function App () {
             <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li>
           </ul>
         </div>
+        <span style={{'fontWeight': 'bold', 'margin-top': '10px'}}>Contact: paulv@pacquiaofoundation.org</span>
       
         <div className="container-footer">
 
