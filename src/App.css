@@ -157,7 +157,7 @@
   .partners-title{
     align-self: flex-start;
     font-family: Brush Script MT !important; 
-    font-size:20px;    
+    font-size:15px;    
   }
   .partners{
     display: flex;
@@ -169,15 +169,15 @@
     color:#5440d8; 
     font-weight: 'bold'; 
     font-family : PT Mono !important; 
-    font-size: 50px; 
+    font-size: 40px; 
     text-decoration: none;
     
   }
   .partners2{
-    width: 150px;
+    width: 120px;
   }
   .partners3{
-    width: 100px; 
+    width: 90px; 
     margin-bottom: 10px;   
   }
 }
