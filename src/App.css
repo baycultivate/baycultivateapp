@@ -94,7 +94,7 @@
   }
   .partners-title{
     align-self: flex-start;    
-    font-family: Brush Script MT; 
+    font-family: Brush Script MT !important; 
     font-size:20px;
   }
   .partners{
@@ -106,7 +106,7 @@
     align-self: flex-start;
     color:#5440d8; 
     font-weight: 'bold'; 
-    font-family : PT Mono; 
+    font-family : PT Mono !important; 
     font-size:120px; 
     text-decoration: none;
     margin-top: 30px;
@@ -156,7 +156,7 @@
   }
   .partners-title{
     align-self: flex-start;
-    font-family: Brush Script MT; 
+    font-family: Brush Script MT !important; 
     font-size:20px;    
   }
   .partners{
@@ -168,8 +168,8 @@
     align-self: flex-start;
     color:#5440d8; 
     font-weight: 'bold'; 
-    font-family : PT Mono; 
-    font-size:50px; 
+    font-family : PT Mono !important; 
+    font-size: 50px; 
     text-decoration: none;
     
   }
