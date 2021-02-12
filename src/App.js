@@ -42,9 +42,9 @@ function App () {
         <div className="container-footer">
 
           <div className="container-partners" >
-            <span className="partners-title" >Bay Cultivate Partners</span>
+            <span className="partners-title" style={{'fontFamily': 'Brush Script MT'}}>Bay Cultivate Partners</span>
             <div className="partners">
-              <a className="partners1" href="http://c0d3.com" >C0D3</a>
+              <a className="partners1" href="http://c0d3.com" style={{'fontFamily': 'PT Mono'}}>C0D3</a>
               <a href="http://pacquiaofoundation.org" ><img className='partners2'src={'https://baycultivate.s3-us-west-1.amazonaws.com/MANNY-PACQUIAO-FOUNDATION.svg'}/></a>
               <a href="https://3rdstreetboxing.com/" ><img className="partners3" src={'https://baycultivate.s3-us-west-1.amazonaws.com/3rd-Street2colorlogov3.png'} /></a>            
             </div>
