@@ -32,6 +32,8 @@
   }
   .partners-title{
     align-self: flex-start;    
+    font-family: Brush Script MT; 
+    font-size:20px;
   }
   .partners{
     display: flex;
@@ -42,7 +44,7 @@
     align-self: flex-start;
     color:#5440d8; 
     font-weight: 'bold'; 
-    font-family : PT Mono Brush; 
+    font-family : PT Mono; 
     font-size:120px; 
     text-decoration: none;
     margin-top: 30px;
