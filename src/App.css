@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
-}
+@media(min-width:750px){
+  .container-banner{
+    display:flex;
+    /* align-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .logo-1{    
+    width: 450px;
+    /* justify-content: center; */
+    /* align-self: center; */
+  }
+  
+  .container-services{
+    display: flex;
+    /* margin-bottom: 1599 px; */
+  }
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .container-footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%
+  }
+
+  .container-partners{    
+    background-color: silver;
+    align-items: flex-end;
+  }
+  .partners-title{
+    align-self: flex-start;    
+  }
+  .partners{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .partners1{
+    align-self: flex-start;
+    color:#5440d8; 
+    font-weight: 'bold'; 
+    font-family : PT Mono; 
+    font-size:120px; 
+    text-decoration: none;
+    
+  }
+  .partners2{
+    
+  }
+  .partners3{
+    width: 250px; 
+    margin-bottom: 10px;   
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+@media(min-width: 375px){
+  .container-banner{
+    display:flex;
+    justify-content: center;
+  }
+
+  .logo-1{  
+    width: 250px;
+    /* justify-content: center; */
+    /* align-self: center; */
+  }
+
+  .container-services{
+    display: flex;
+    /* margin-bottom: 1599 px; */
+  }
+
+
+  .container-footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%
+  }
+
+  .container-partners{    
+    background-color: silver;
+    align-items: flex-end;
+  }
+  .partners-title{
+    align-self: flex-start;    
+    font-family: Brush Script MT; 
+    font-size:20px;
+  }
+  .partners{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .partners1{
+    align-self: flex-start;
+    color:#5440d8; 
+    font-weight: 'bold'; 
+    font-family : PT Mono; 
+    font-size:40px; 
+    text-decoration: none;
+    
+  }
+  .partners2{
+    width: 150px;
+  }
+  .partners3{
+    width: 50px;    
+  }
+}
+
+.container-banner{
+  display:flex;
+  /* align-items: center; */
+  /* align-items: center; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-1{    
+  width: 250px;
+  /* justify-content: center; */
+  /* align-self: center; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-services{
+  display: flex;
+  /* margin-bottom: 1599 px; */
+}
+
+
+.container-footer{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%
+}
+
+.container-partners{    
+  background-color: silver;
+  align-items: flex-end;
+}
+.partners-title{
+  align-self: flex-start;    
+}
+.partners{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.partners1{
+  align-self: flex-start;
+  color:#5440d8; 
+  font-weight: 'bold'; 
+  font-family : PT Mono; 
+  font-size:120px; 
+  text-decoration: none;
+  margin-top: 30px;
+}
+.partners2{
+  width: 450px;
+  margin-top: 45px;
+}
+.partners3{
+  width: 200px;   
 }
