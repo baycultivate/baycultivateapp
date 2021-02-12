@@ -39,7 +39,7 @@ function App () {
             <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li>
           </ul>
         </div>
-        <span style={{'fontWeight': 'bold', 'margin-top': '10px'}}>Contact: paulv@pacquiaofoundation.org</span>
+        <span style={{'fontWeight': 'bold', 'margin-top': '10px', 'margin-bottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
       
         <div className="container-footer">
 
