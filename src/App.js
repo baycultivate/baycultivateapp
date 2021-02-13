@@ -33,6 +33,8 @@ function App () {
             <CarouselComponent />
           </div>
           <div className="container-services" style={{'marginBottom':'250px'}}>
+            <div>
+            <span style={{'fontWeight': 'bold', 'margin-top': '10px', 'margin-bottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
             <ul> 
               <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
             </ul>
@@ -43,7 +45,8 @@ function App () {
               <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li>
             </ul>
           </div>
-          <span style={{'fontWeight': 'bold', 'margin-top': '10px', 'margin-bottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
+
+            </div>
         </div>
       
         <div className="container-footer">
