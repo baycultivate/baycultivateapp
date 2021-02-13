@@ -1,11 +1,12 @@
 import React, { Component, useState, useEffect } from 'react';
 import './App.css'
+import CarouselComponent from './components/carousel.component';
 
 // import Introduction from './components/introduction'
 // import logo from './logo last.PNG'
 
 function App () {
-  const [width, setWindowWidth] = useState(0);
+  const [ width, setWindowWidth ] = useState(0);
 
   useEffect(() => {
     updateDimensions();
@@ -18,9 +19,9 @@ function App () {
     setWindowWidth(width)
   };
 
-  const responsive = {
-    showTopNavMenu: width > 1023
-  }
+  // const responsive = {
+  //   showTopNavMenu: width > 1023
+  // }
     return (
       <div>
         <div className="container-banner">          
@@ -28,6 +29,9 @@ function App () {
         </div>
 
 
+        <div style={{'marginTop': '30px', 'marginBottom': '30px', 'display': 'block', 'marginLeft': 'auto', 'marginRight': 'auto', 'width': '50%'}}>
+          <CarouselComponent />
+        </div>
         <div className="container-services">
           <ul> 
             <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
@@ -47,8 +51,8 @@ function App () {
             <span className="partners-title" style={{'fontFamily': 'Brush Script MT'}}>Bay Cultivate Partners</span>
             <div className="partners">
               <a className="partners1" href="http://c0d3.com" style={{'fontFamily': 'PT Mono'}}>C0D3</a>
-              <a href="http://pacquiaofoundation.org" ><img className='partners2'src={'https://baycultivate.s3-us-west-1.amazonaws.com/MANNY-PACQUIAO-FOUNDATION.svg'}/></a>
-              <a href="https://3rdstreetboxing.com/" ><img className="partners3" src={'https://baycultivate.s3-us-west-1.amazonaws.com/3rd-Street2colorlogov3.png'} /></a>            
+              <a href="http://pacquiaofoundation.org" ><img className='partners2'src={'https://baycultivate.s3-us-west-1.amazonaws.com/MANNY-PACQUIAO-FOUNDATION.svg'} alt='mpf'/></a>
+              <a href="https://3rdstreetboxing.com/" ><img className="partners3" src={'https://baycultivate.s3-us-west-1.amazonaws.com/3rd-Street2colorlogov3.png'} alt='3rdst'/></a>            
             </div>
           </div>
         </div>
