@@ -10,7 +10,7 @@ import marketing from '../images/marketing.jpg'
 export default function CarouselComponent() {
     return(
         <div className='carousel-wrapper' >
-            <Carousel >
+            <Carousel infiniteLoop useKeyboardArrows autoPlay>
                 <div>
                     <img src={webdesign} alt='webdesign' />
                 </div>
