@@ -34,7 +34,7 @@ function App () {
           </div>
           <div className="container-services" style={{'marginBottom':'250px'}}>
             <div>
-            <span style={{'fontWeight': 'bold', 'margin-top': '10px', 'margin-bottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
+            <span style={{'fontWeight': 'bold', 'marginTop': '10px', 'marginBottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
             <ul> 
               <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
             </ul>
