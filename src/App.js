@@ -28,22 +28,23 @@ function App () {
             <img className="logo-1" src={'https://baycultivate.s3-us-west-1.amazonaws.com/logo+last.PNG'} alt="Logo" />                          
         </div>
 
-
-        <div style={{'marginTop': '30px', 'marginBottom': '30px', 'display': 'block', 'marginLeft': 'auto', 'marginRight': 'auto', 'width': '50%'}}>
-          <CarouselComponent />
+        <div style={{'marginBottom':'25px'}}>
+          <div style={{'marginTop': '30px', 'display': 'block', 'marginLeft': 'auto', 'marginRight': 'auto', 'width': '50%'}}>
+            <CarouselComponent />
+          </div>
+          <div className="container-services" style={{'marginBottom':'250px'}}>
+            <ul> 
+              <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
+            </ul>
+            <ul>
+              <li >Software Engineering: Individually customized web design that is unique to any site online. Email to schedule engineering consult.</li>
+            </ul>
+            <ul>
+              <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li>
+            </ul>
+          </div>
+          <span style={{'fontWeight': 'bold', 'margin-top': '10px', 'margin-bottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
         </div>
-        <div className="container-services">
-          <ul> 
-            <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
-          </ul>
-          <ul>
-            <li >Software Engineering: Individually customized web design that is unique to any site online. Email to schedule engineering consult.</li>
-          </ul>
-          <ul>
-            <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li>
-          </ul>
-        </div>
-        <span style={{'fontWeight': 'bold', 'margin-top': '10px', 'margin-bottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
       
         <div className="container-footer">
 
