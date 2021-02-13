@@ -1,12 +1,17 @@
 import React, { Component, useState, useEffect } from 'react';
 import './App.css'
 import CarouselComponent from './components/carousel.component';
+import { GoMail } from 'react-icons/go';
+import { GiSmartphone } from 'react-icons/gi'
 
-// import Introduction from './components/introduction'
-// import logo from './logo last.PNG'
+const mailIconStyle = {
+  display: 'flex',
+  width: '20px'
+}
 
 function App () {
   const [ width, setWindowWidth ] = useState(0);
+  const [shouldAnimate, setAnimation ] = useState(false)
 
   useEffect(() => {
     updateDimensions();
@@ -34,7 +39,9 @@ function App () {
           </div>
           <div className="container-services" style={{'marginBottom':'250px'}}>
             <div>
-            <span style={{'fontWeight': 'bold', 'marginTop': '10px', 'marginBottom': '20px'}}>Contact: paulv@pacquiaofoundation.org</span>
+              
+            <div style={{'fontWeight': 'bold', 'marginTop': '10px', 'marginLeft':'10px','marginBottom': '20px'}}><GoMail /> Email : paulv@pacquiaofoundation.org</div>
+            {/* <div style={{'fontWeight': 'bold', 'marginTop': '10px',  'marginLeft':'10px', 'marginBottom': '20px'}}><GiSmartphone /> Phone: </div> */}
             <ul> 
               <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
             </ul>
