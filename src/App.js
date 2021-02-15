@@ -33,8 +33,8 @@ function App () {
             <img className="logo-1" src={'https://baycultivate.s3-us-west-1.amazonaws.com/logo+last.PNG'} alt="Logo" />                          
         </div>
 
-        <div style={{'marginBottom':'25px'}}>
-          <div style={{'marginTop': '30px', 'display': 'block', 'marginLeft': 'auto', 'marginRight': 'auto', 'width': '50%'}}>
+        <div style={{'marginTop':'25px', 'marginBottom':'25px'}}>
+          <div style={{'marginTop': '30px', 'display': 'block', 'marginLeft': '45%', 'marginRight': 'auto', 'height':'25%','width': '25%'}}>
             <CarouselComponent />
           </div>
           <div className="container-services" style={{'marginBottom':'250px'}}>

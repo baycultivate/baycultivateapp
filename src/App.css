@@ -2,8 +2,11 @@
   css for desktop
 */
 .container-banner{
-  display:flex;
-  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .logo-1{  
@@ -15,6 +18,7 @@
 
 .container-services{
   display: flex;
+  margin-left: 265px;
   /* margin-bottom: 1599 px; */
 }
 
@@ -45,16 +49,17 @@
   color:#5440d8; 
   font-weight: bold; 
   font-family : PT Mono; 
-  font-size:125px; 
+  font-size:65px; 
   text-decoration: none;
-  
+  margin-top: 30px;
 }
 .partners2{
-  width: 500px;
-  margin-bottom: 50px;     
+  width: 250px;
+  margin-top: 30px;
 }
 .partners3{
-  width: 200px;    
+  width: 100px;  
+  margin-bottom: 40px;
 }
 
 
@@ -62,11 +67,11 @@
 
 @media(max-width: 1024px){
 
-  .container-banner{
-    display:flex;
-    /* align-items: center; */
-    /* align-items: center; */
-    justify-content: center;
+  .container-banner{    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 100%;
   }
   
   .logo-1{    
@@ -77,6 +82,7 @@
   
   .container-services{
     display: flex;
+    margin-left: 250px;
     /* margin-bottom: 1599 px; */
   }
   
@@ -107,16 +113,16 @@
     color:#5440d8; 
     font-weight: 'bold'; 
     font-family : PT Mono; 
-    font-size:120px; 
+    font-size:60px; 
     text-decoration: none;
     margin-top: 30px;
   }
   .partners2{
-    width: 450px;
+    width: 250px;
     margin-top: 45px;
   }
   .partners3{
-    width: 250px;   
+    width: 125px;   
   }
 }
 
