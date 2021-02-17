@@ -45,7 +45,7 @@ function App () {
             {/* <div style={{'fontWeight': 'bold', 'marginTop': '10px',  'marginLeft':'10px', 'marginBottom': '20px'}}><GiSmartphone /> Phone: </div> */}
             <ul> 
               {/* <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>           */}
-              <li> <a href='https://garagescript.org'>Garage Script</a> is a 501c3 non-profit that teaches Software Engineering for free. Their curriclum <a href='https://c0d3.com'>C0D3</a> is proven as past graduates now work at Google. Classes were being taught in Santa Clara pre-Covid and are waiting to begin again.</li>          
+              <li> <a href='https://garagescript.org'>Garage Script</a> is a 501c3 non-profit that teaches Software Engineering. Their curriclum <a href='https://c0d3.com'>C0D3</a> is proven as past graduates now work at Google as Software Engineers. Classes were being taught in Santa Clara pre-Covid and are waiting to begin again. Donations made to the organization provide salaries for the staff to teach.</li>          
             </ul>
             <ul>
               {/* <li >Software Engineering: Individually customized web design that is unique to any site online. Email to schedule engineering consult.</li> */}
