@@ -78,10 +78,10 @@
 @media(max-width: 1024px){
 
   .container-banner{    
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    /* width: 100%;
+    margin-bottom: 100%; */
   }
   
   .logo-1{    
@@ -144,6 +144,7 @@
     display:block;
     margin-left: 111px;    
     width: 50%;
+    position: absolute;
   }
 
   .logo-1{    
