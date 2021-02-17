@@ -34,23 +34,28 @@ function App () {
         </div>
 
         <div style={{'marginTop':'25px', 'marginBottom':'25px'}}>
-          <div style={{'marginTop': '30px', 'display': 'block', 'marginLeft': '45%', 'marginRight': 'auto', 'height':'25%','width': '25%'}}>
+          <div className='container-carousel'>
             <CarouselComponent />
           </div>
           <div className="container-services" style={{'marginBottom':'250px'}}>
             <div>
               
-            <div style={{'fontWeight': 'bold', 'marginTop': '10px', 'marginLeft':'10px','marginBottom': '20px'}}><GoMail /> Email : paulv@pacquiaofoundation.org</div>
+            <div style={{'fontWeight': 'bold', 'marginTop': '10px','marginBottom': '20px'}}><GoMail /> Email : paulv@pacquiaofoundation.org</div> 
+            <a style={{'fontWeight':'bold'}} href="https://baycultivate.cloud.mattermost.com/" >Boardroom Chat Login</a>
             {/* <div style={{'fontWeight': 'bold', 'marginTop': '10px',  'marginLeft':'10px', 'marginBottom': '20px'}}><GiSmartphone /> Phone: </div> */}
             <ul> 
-              <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>          
+              {/* <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>           */}
+              <li> <a href='https://garagescript.org'>Garage Script</a> is a 501c3 non-profit that teaches Software Engineering for free. Their curriclum <a href='https://c0d3.com'>C0D3</a> is proven as past graduates now work at Google. Classes were being taught in Santa Clara pre-Covid and are waiting to begin again.</li>          
             </ul>
             <ul>
-              <li >Software Engineering: Individually customized web design that is unique to any site online. Email to schedule engineering consult.</li>
+              {/* <li >Software Engineering: Individually customized web design that is unique to any site online. Email to schedule engineering consult.</li> */}
+              <li >In collaboration with the <a href='https://pacquiaofoundation.org'>Manny Pacquiao Foundation</a>, we want to teach the C0D3 curriculum in Philippines! As new programs are conceived, new funding must be allocated as well. All help is appreciated.</li>
             </ul>
             <ul>
-              <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li>
+              {/* <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li> */}
+              <li >Please reach out to the email above for any help with donations, loans, or investments. Thank You.</li>
             </ul>
+            
           </div>
 
             </div>

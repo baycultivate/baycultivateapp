@@ -9,6 +9,16 @@
   margin-left: 10px;
 }
 
+.container-carousel{
+  /* style={{'marginTop': '30px', 'display': 'block', 'marginLeft': '45%', 'marginRight': 'auto', 'height':'25%','width': '25%'}} */
+  margin-top: 30px;
+  display: 'block';
+  margin-left: 45%;
+  margin-right: auto;
+  height: 25%;
+  width: 25%;
+}
+
 .logo-1{  
   width: 250px;
   height: 250px;
@@ -83,6 +93,7 @@
   .container-services{
     display: flex;
     margin-left: 250px;
+
     /* margin-bottom: 1599 px; */
   }
   
@@ -130,10 +141,9 @@
 /*CSS for mobile*/
 @media(max-width:500px){
   .container-banner{
-    display:flex;
-    /* align-items: center; */
-    /* align-items: center; */
-    justify-content: center;
+    display:block;
+    margin-left: 111px;    
+    width: 50%;
   }
 
   .logo-1{    
@@ -142,11 +152,18 @@
     /* justify-content: center; */
     /* align-self: center; */
   }
-  
+  .container-carousel{
+    /* style={{'marginTop': '30px', 'display': 'block', 'marginLeft': '45%', 'marginRight': 'auto', 'height':'25%','width': '25%'}} */
+    margin-top: 47%;
+    display: 'block';
+    margin-left: 17%;    
+    width: 65%;
+  }
   .container-services{
     display: flex;
     /* margin-bottom: 1599 px; */
     flex-direction: column;
+    margin-left: 20px;
   }
   
 
