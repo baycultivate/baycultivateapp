@@ -41,7 +41,18 @@ function App () {
             <div>
               
             <div style={{'fontWeight': 'bold', 'marginTop': '10px','marginBottom': '20px'}}><GoMail /> Email : paulv@pacquiaofoundation.org</div> 
-            <a style={{'fontWeight':'bold'}} href="https://baycultivate.cloud.mattermost.com/" >Boardroom Chat Login</a>
+            
+            
+            
+            
+            {/* boardroom chat  */}
+            {/* <a style={{'fontWeight':'bold'}} href="https://baycultivate.cloud.mattermost.com/" >Boardroom Chat Login</a> */}
+
+
+
+
+
+
             {/* <div style={{'fontWeight': 'bold', 'marginTop': '10px',  'marginLeft':'10px', 'marginBottom': '20px'}}><GiSmartphone /> Phone: </div> */}
             <ul> 
               {/* <li >Web Development: professional template style, quick turnaround, option to upgrade by feature. $50 month and up, email to go over web template options.</li>           */}
