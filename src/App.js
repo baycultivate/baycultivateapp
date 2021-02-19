@@ -60,11 +60,11 @@ function App () {
             </ul>
             <ul>
               {/* <li >Software Engineering: Individually customized web design that is unique to any site online. Email to schedule engineering consult.</li> */}
-              <li >In collaboration with the <a href='https://pacquiaofoundation.org'>Manny Pacquiao Foundation</a>, we want to teach the C0D3 curriculum in Philippines! As new programs are conceived, new funding must be allocated as well. All help is appreciated.</li>
+              <li >In collaboration with the <a href='https://pacquiaofoundation.org'>Manny Pacquiao Foundation</a>, we want to teach the C0D3 curriculum in the Philippines! As new programs are conceived, new funding must be allocated as well.</li>
             </ul>
             <ul>
               {/* <li >Digital Marketing: SEO, Keyword Search, Social Media Campaigns Articles, Reviews, Ad Scheduling, Google Ads. Email to schedule services call.</li> */}
-              <li >Please reach out to the email above for any help with donations, loans, or investments. Thank You.</li>
+              <li >Reach out to the email above for any questions or interest in providing financial contributions, Thank You.</li>
             </ul>
             
           </div>
