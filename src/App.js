@@ -36,6 +36,7 @@ function App () {
         <div style={{'marginTop':'25px', 'marginBottom':'25px'}}>
           <div className='container-carousel'>
             <CarouselComponent />
+            
           </div>
           <div className="container-services" style={{'marginBottom':'250px'}}>
             <div>
