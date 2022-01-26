@@ -98,7 +98,7 @@ function App () {
             <div className="partners">
               <a className="partners1" href="http://c0d3.com" style={{'fontFamily': 'PT Mono'}}>C0D3</a>
               <a href="http://pacquiaofoundation.org" ><img className='partners2'src={'https://baycultivate.s3-us-west-1.amazonaws.com/MANNY-PACQUIAO-FOUNDATION.svg'} alt='mpf'/></a>
-              <a href="https://3rdstreetboxing.com/" ><img className="partners3" src={'https://baycultivate.s3-us-west-1.amazonaws.com/3rd-Street2colorlogov3.png'} alt='3rdst'/></a>            
+              
             </div>
           </div>
         </div>
